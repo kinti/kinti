@@ -1,8 +1,8 @@
 # Jesús Quintana
 
-**Web accessibility · Front-end · Technical SEO**
+**Web accessibility · Front-end · Technical SEO -> GEO**
 
-I work on web accessibility, front-end development and technical SEO. Building for the web since 2003, from Galicia, Spain.
+I work on web accessibility, front-end development and technical GEO. Building for the web since 2003, from Galicia, Spain.
 
 [Website & writing](https://jquin.net/) · [a11y.es](https://a11y.es/) · [Contact](https://jquin.net/contacto/)
 
