@@ -4,7 +4,7 @@
 
 I work on web accessibility, front-end development and technical GEO. Building for the web since 2003, from Galicia, Spain.
 
-[Website & writing](https://jquin.net/) · [a11y.es](https://a11y.es/) · [Contact](https://jquin.net/contacto/)
+[Website & writing](https://jquin.net/) · [a11y.es](https://a11y.es/) · [Contact](https://jquin.net/contacto/) · [Work](https://maismedia.com)
 
 ## What I'm building
 
