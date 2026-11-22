@@ -1,0 +1,32 @@
+name: Profile Insights
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-insights
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Render GitHub overview, 3D contributions and language treemap
+        uses: seijikohara/profile-cards-action@38ef607e10ff675448299c42932d2fda7ae1129c # v1.17.5
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: kinti
+          cards: overview,contributions,languages
+          output-dir: assets/insights
+          themes: light,dark
+          palette: blue
+          commit: true
